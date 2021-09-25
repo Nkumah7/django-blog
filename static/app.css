@@ -1,3 +1,4 @@
+   
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
 * {
@@ -35,6 +36,7 @@ h3 {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  margin-left: 1rem;
 }
 
 #main-navigation a:hover,

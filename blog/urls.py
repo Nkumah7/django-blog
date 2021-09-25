@@ -12,4 +12,5 @@ urlpatterns = [
     #      name="post-detail-page"), #/posts/my-first-post # Function based view for Single Post Page
     path("posts/<slug:slug>", views.SinglePostView.as_view(),
          name="post-detail-page"), #/posts/my-first-post # Class based view for Single Post Page
+    path("read-later", views.ReadLaterView.as_view(), name="read-later")
 ]
